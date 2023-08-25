@@ -43,3 +43,12 @@ npx prisma generate
   ```bash
   npx nest generate resource
   ```
+
+## Google Maps API
+
+- Go to <https://console.cloud.google.com/>
+- Create a project
+- [Browse the libraries](https://console.cloud.google.com/apis/library/browse) and select the following:
+  - Maps JavaScript API
+  - Directions API
+  - Places API
