@@ -52,3 +52,8 @@ npx prisma generate
   - Maps JavaScript API
   - Directions API
   - Places API
+
+### place_id examples
+
+- DCC @ UFLA: `ChIJ7ZCG_9j9nwARVOLlSsYMvec`
+- Darce (🤫): `ChIJvSKUD4z9nwARrmBuvYI7CTY`

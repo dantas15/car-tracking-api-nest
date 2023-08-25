@@ -16,7 +16,11 @@ Content-Type: application/json
   "destination_id": "2"
 }
 
-### Map stuff
+### Maps stuff ###
 
 ### Get place_id
-GET http://localhost:3000/places?text=departamento_de_ciencia_da_computacao_ufla
+GET http://localhost:3000/places?text=darce_lavras
+
+### Get directions between 2 points
+# GET http://localhost:3000/directions?originId=<put_origin_id_here>&destinationId=<put_destination_id_here>
+GET http://localhost:3000/directions?originId=ChIJvSKUD4z9nwARrmBuvYI7CTY&destinationId=ChIJ7ZCG_9j9nwARVOLlSsYMvec
